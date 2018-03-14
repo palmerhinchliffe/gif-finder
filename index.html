@@ -1,0 +1,37 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Gif Finder</title>
+  <meta name="description" content="Gif Finder">
+  <meta name="author" content="Palmer Hinchliffe">
+  <!-- Bootstrap 4.0.0 -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!-- External stylesheet -->
+  <link rel="stylesheet" href="./stylesheet.css">
+</head>
+
+<body>
+
+<div class="container jumbotron text-center">
+  <h1>Gif Finder</h1><br>
+  <input id="queryInput" type="text" placeholder='e.g. "dirty grandma"'/>
+  <button id="getResultBtn">Find a .gif</button><br><br>
+  <!-- Image gets loaded here -->
+  <iframe id="gifFrame" class="embed-responsive-item" src="https://giphy.com/embed/lQRLXIGbyNBjq" width="480" height="360" class="giphy-embed" allowFullScreen>
+  </iframe>
+  <p><a href="https://giphy.com/gifs/l3q2yYNt8DXoyKRdm">via GIPHY</a></p>
+  <!-- Image gets loaded here -->
+  <h5>Not what you wanted? <a id="findAnotherBtn" href="#">Find another</a></h5>
+</div>
+
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+crossorigin="anonymous"></script>
+<!-- Javascript -->
+<script src="./script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,16 @@
+body {
+  font-family: "helvetica";
+  background-color: tomato;
+}
+
+input {
+  text-indent: 7px;
+}
+
+.jumbotron {
+  background-color: tomato;
+}
+
+#gifFrame {
+  border: none;
+}
